@@ -24,8 +24,8 @@
      就隨意留個介紹網址吧。[Selenium介紹](https://www.selenium.dev/)  
      `我的膚淺 driver.find_element(By.xx,'xx').todo() 回頭看來，真的對這個大寶貝太不敬了。`
      ```Python
-driver.find_element(By.ID, 'userId').send_keys(os.getenv('PXNAME'))
-```
+        driver.find_element(By.ID, 'userId').send_keys(os.getenv('PXNAME'))
+    ```
      
      
   4. Pytesseract
