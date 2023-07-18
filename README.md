@@ -37,7 +37,7 @@
      搞的很專業的名詞就是Normal Captcha、reCAPTCHA等等..  
      做為一個好像沒那麼正義的一方???好好的觀查對方的城堡找出~~狗洞?~~???  
      是找出對應的入場證明，方法百百種，而Pytesseract就是圖型驗證網頁的起手式。  
-     當你看到登入上面那個醜醜的圖，就是起用PIL+Pytesseract這對~~鴛鴦大盜~~最好時機。
+     當你看到登入上面那個醜醜的圖，就是起用PIL+Pytesseract這對~~鴛鴦大盜~~最好時機。  
      這個元件我一樣沒有小抄，這裡留一個設定環境的網頁供參考[Pytesseract環境設置](https://lufor129.medium.com/pytesseract-%E8%BE%A8%E8%AD%98%E5%9C%96%E7%89%87%E4%B8%AD%E7%9A%84%E6%96%87%E5%AD%97-b1024f678fac "游標顯示")  
      然後留下一段大約就是這樣的程式碼  
      ```Python
