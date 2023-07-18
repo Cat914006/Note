@@ -13,7 +13,7 @@
   >>>搭配一下requests，抓抓匯率搞搞股價，感覺學會了Python的全世界!!  
   >>>認真的說BeautifulSoup還是真的非常好用的，怎麼說!就是他很基礎卻也很萬能!  
   >>>常常就是一個轉身又華麗出場。  
-  >>>我不知道現在的版本到那了!但我還是會到這個網頁來抄一抄!  
+  >>>我不知道現在的版本到那了!但我還是會到這個網頁來抄一抄!
   >>>[BeautifulSoup小抄](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/ "游標顯示")  
   >>Selenium  
   >>Pytesseract  
