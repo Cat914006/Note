@@ -24,7 +24,7 @@
      還真沒特別常用的網頁。就隨意留個介紹網址吧。[Selenium介紹](https://www.selenium.dev/)  
     
      ```Python
-        //我的膚淺  回頭看來，真的對這個大寶貝太不敬了。
+        #我的膚淺  回頭看來，真的對這個大寶貝太不敬了。
         driver.find_element(By.ID, 'userId').send_keys(os.getenv('PXNAME'))
      ```
      
@@ -41,11 +41,11 @@
      這個元件我一樣沒有小抄，這裡留一個設定環境的網頁供參考→ [Pytesseract環境設置](https://lufor129.medium.com/pytesseract-%E8%BE%A8%E8%AD%98%E5%9C%96%E7%89%87%E4%B8%AD%E7%9A%84%E6%96%87%E5%AD%97-b1024f678fac "游標顯示")  
      然後留下讓人看不太懂程式碼xD，但真的就是這樣xD   
      ```Python
-     //先想辦法把那個吐血的圖產生出來
+      #先想辦法把那個吐血的圖產生出來
      img.save('securityImg.png')
-     //再來依那個圖的組合給出合理的辨識參數
+      #再來依那個圖的組合給出合理的辨識參數
      verifytext = pytesseract.image_to_string(img, lang='eng',config='--psm 10 --oem 3 -c tessedit_char_whitelist=0123456789')
-     //把猜?出來的數字扔給守衛
+      #把猜?出來的數字扔給守衛
      driver.find_element(By.ID, 'securityId').send_keys(verifytext)
      ```
      
