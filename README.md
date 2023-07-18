@@ -49,7 +49,7 @@
      driver.find_element(By.ID, 'securityId').send_keys(verifytext)
      ```
      
-  6. PyAutoGUI
+  6. PyAutoGUI  
      PyAutoGUI算是某種最後手段，大招??傷敵一千自損八百??  
      不知道年輕的小朋友有沒有操作過腳本，某個年代拿來自動練功什麼的???~~好我知道你們都還年輕~~  
      PyAutoGUI也有點像是Excel的巨集??總而言之，他就是個幫你操作鍵盤和滑鼠工具  
