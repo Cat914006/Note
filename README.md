@@ -16,17 +16,20 @@
   遇到什作業，先抄為敬，來這個網頁來抄一抄就對了。[BeautifulSoup小抄](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/ "游標顯示")
 
   2. Selenium
-     聽說這個大寶貝的出身是自動化測試工具，怎麼有種被我抓來做壞事的感覺?
+     聽說這個大寶貝的出身是自動化測試工具，怎麼有種被我抓來不務正業的感覺?
      總之他在我的內心是爬蟲的光，是希望!(遠目)  
      基本上他可以抓到畫面上8成的元件，且互動成功!(畫面上、畫面上、畫面上) 嗯~重要的事說三次。  
      他需要搭配使用的瀏覽器設定驅動，這只留我常用的Chrome → [Driver](https://chromedriver.chromium.org/downloads)  
-     他的小抄嘛! 因為就我拿來用的這麼「膚淺」基本上就是記得一個語法就結束了!所以是需要就GOOGLE一下，沒特別常用的網頁。    
+     小抄嘛! 因為就我拿來用的這麼「膚淺」基本上就是記得一個語法就結束了!所以就是需要就GOOGLE一下，還真沒特別常用的網頁。    
      就隨意留個介紹網址吧。[Selenium介紹](https://www.selenium.dev/)  
-     `我的膚淺 driver.find_element(By.xx,'xx') 回頭看來，真的對這個大寶貝太不敬了，`
+     `我的膚淺 driver.find_element(By.xx,'xx').todo() 回頭看來，真的對這個大寶貝太不敬了。`
+  3. Pytesseract
+     
+  5. Pyautogui
      
      
-  4.  
-  Pytesseract  
+  6.  
+   
   Pyautogui  
   pandas  
   pandas
