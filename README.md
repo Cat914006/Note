@@ -11,9 +11,9 @@
   1. BeautifulSoup  
   大名鼎鼎這碗湯就不多說了，應該是所有Python小萌新的第一堂課xD(稱號Get 大嬸級Python萌新)  
   搭配一下requests，抓抓匯率搞搞股價，感覺學會了Python的全世界!!  
-  但還要有一說一的要認真表態BeautifulSoup還是真的非常好用的，怎麼說!就是他很基礎卻也很萬能!
+  但還要有一說一的要認真表態BeautifulSoup還是真的非常好用的，怎麼說!就是他很基礎卻也很萬能!  
   常常就是一個轉身又華麗出場。  
-  我不知道現在的版本到那了!但我還是會到這個網頁來抄一抄。[BeautifulSoup小抄](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/ "游標顯示")
+  遇到什作業，先抄為敬，來這個網頁來抄一抄就對了。[BeautifulSoup小抄](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/ "游標顯示")
 
   2. Selenium
      聽說這個大寶貝的出身是自動化測試工具，怎麼有種被我抓來做壞事的感覺?
@@ -22,7 +22,7 @@
      他需要搭配使用的瀏覽器設定驅動，這只留我常用的Chrome → [Driver](https://chromedriver.chromium.org/downloads)  
      他的小抄嘛! 因為就我拿來用的這麼「膚淺」基本上就是記得一個語法就結束了!所以是需要就GOOGLE一下，沒特別常用的網頁。    
      就隨意留個介紹網址吧。[Selenium介紹](https://www.selenium.dev/)  
-     `膚淺 driver.find_element(By.xx,'xx')`
+     `我的膚淺 driver.find_element(By.xx,'xx') 回頭看來，真的對這個大寶貝太不敬了，`
      
      
   4.  
