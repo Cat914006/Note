@@ -19,7 +19,10 @@ BeautifulSoup
   Pytesseract  
   Pyautogui  
   pandas  
-  pandas 
+  pandas
+  名詞 3
+~ 定義 3
+~ 定義 3
 
 * 流程
 ---
