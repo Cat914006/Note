@@ -13,7 +13,7 @@
   搭配一下requests，抓抓匯率搞搞股價，感覺學會了Python爬蟲界的全世界!!  
   但還要有一說一的要認真表態BeautifulSoup還是真的非常好用的，怎麼說!就是他很基礎卻也很萬能!  
   常常就是一個轉身又華麗出場。  
-  遇到什作業，先抄為敬，來這個網頁來抄一抄就對了。[BeautifulSoup小抄](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/ "游標顯示")
+  遇到什作業，先抄為敬，來這個網頁來抄一抄就對了。[BeautifulSoup小抄](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/ "游標顯示")  
 
   2. Selenium  
      聽說這個大寶貝的出身是自動化測試工具，怎麼有種被我抓來不務正業的感覺?
@@ -27,8 +27,7 @@
         #我的膚淺  回頭看來，真的對這個大寶貝太不敬了。
         driver.find_element(By.ID, 'userId').send_keys(os.getenv('PXNAME'))
      ```
-     
-     
+       
   4. Pytesseract  
      說到這個Pytesseract，先來談談OCR，光學文字辨識，聽起來好像很利害!嗯~他真的滿利害的!  
      先感謝那些大神們(雙手合十)，再來簡單的說→把圖片中的文字轉化成文字檔等。  
@@ -48,7 +47,7 @@
       #把入場證扔給守衛
      driver.find_element(By.ID, 'securityId').send_keys(verifytext)
      ```
-     
+       
   6. PyAutoGUI
      PyAutoGUI算是某種最後手段，大招??傷敵一千自損八百??  
      不知道年輕的小朋友有沒有操作過腳本，某個年代拿來自動練功什麼的???~~好我知道你們都還年輕~~  
@@ -60,7 +59,7 @@
      另一個功能，在面對reCAPTCHA時 動一動鍵盤滑鼠 可以再演算法分數高一些，雖然我也無從考證就是了xD  
      必竟讓reCAPTCHA進入二次驗證?~~那個我真人都按到抓狂~~ 基本上就是一盤死棋了!(鈔能力封印下的前提...)  
      PyAutoGUI卡拿出來扔前，先處理driver.set_window_size(XXX, XXX)，**這樣才能相對確保鍵盤和滑鼠在你想要的地方工作**。
-  
+    
   7. Pandas
      它的功能非常的強大，直接給官方小抄 → [官方](https://pandas.pydata.org/docs/user_guide/index.html#user-guide "游標顯示")
      我用到的部份非常的小，但就很有得玩了!
