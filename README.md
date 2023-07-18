@@ -57,8 +57,9 @@
      不過我也忘了面對那個城堡，我請出了PyAutoGUI  
      總之當碰到Selenium抓不到或無法互動的元件時，最後不是辦法的辦法就是請出PyAutoGUI。  
      來!他就是看怎麼用!說是小抄，我得比較像說明書? →網頁直上→[PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/index.html "游標顯示")  
-     對了，不知道在那看到!好像在面對reCAPTCHA時 動一動鍵盤滑鼠 可以再演算法分數高一些  
-     必竟讓reCAPTCHA進入二次驗證?~~那個我真人都按到抓狂~~ 基本上就是一盤死棋了!(鈔能力封印下的前提...)  
+     另一個功能，在面對reCAPTCHA時 動一動鍵盤滑鼠 可以再演算法分數高一些，雖然我也無從考證就是了xD  
+     必竟讓reCAPTCHA進入二次驗證?~~那個我真人都按到抓狂~~ 基本上就是一盤死棋了!(鈔能力封印下的前提...)
+     PyAutoGUI卡拿出來扔前，先處理driver.set_window_size(XXX, XXX)，**這樣才能相對確保鍵盤和滑鼠在你想要的地方工作**。
      
      
      
