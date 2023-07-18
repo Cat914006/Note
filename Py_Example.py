@@ -1,4 +1,4 @@
-# 網址會修正，不過看的懂的應該知道這是那XD
+# 網址會修正XD 
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
