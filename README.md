@@ -19,9 +19,9 @@
      聽說這個大寶貝的出身是自動化測試工具，怎麼有種被我抓來做壞事的感覺?
      總之他在我的內心是爬蟲的光，是希望!(遠目)  
      基本上他可以抓到畫面上8成的元件，且互動成功!(畫面上、畫面上、畫面上) 嗯~重要的事說三次。  
-     他需要搭配使用的瀏覽器設定驅動，這只留我常用的Chrome[driver](https://chromedriver.chromium.org/downloads "游標顯示")
+     他需要搭配使用的瀏覽器設定驅動，這只留我常用的Chrome[driver](https://chromedriver.chromium.org/downloads)
      他的小抄嘛! 因為就我拿來用的這麼「膚淺」基本上就是記得一個語法就結束了!所以是需要就GOOGLE一下，沒特別常用的網頁。  
-     就隨意留個介紹網址吧![Selenium介紹](https://www.selenium.dev/"游標顯示")
+     就隨意留個介紹網址吧![Selenium介紹](https://www.selenium.dev/)  
      '膚淺 driver.find_element(By.xx,'xx')'
      
      
