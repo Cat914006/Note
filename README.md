@@ -48,7 +48,7 @@
      driver.find_element(By.ID, 'securityId').send_keys(verifytext)
      ```
        
-  6. PyAutoGUI
+  6. PyAutoGUI  
      PyAutoGUI算是某種最後手段，大招??傷敵一千自損八百??  
      不知道年輕的小朋友有沒有操作過腳本，某個年代拿來自動練功什麼的???~~好我知道你們都還年輕~~  
      PyAutoGUI也有點像是Excel的巨集??總而言之，他就是個幫你操作鍵盤和滑鼠工具  
@@ -60,10 +60,10 @@
      必竟讓reCAPTCHA進入二次驗證?~~那個我真人都按到抓狂~~ 基本上就是一盤死棋了!(鈔能力封印下的前提...)  
      PyAutoGUI卡拿出來扔前，先處理driver.set_window_size(XXX, XXX)，**這樣才能相對確保鍵盤和滑鼠在你想要的地方工作**。
     
-  7. Pandas
-     它的功能非常的強大，直接給官方小抄 → [官方](https://pandas.pydata.org/docs/user_guide/index.html#user-guide "游標顯示")
-     我用到的部份非常的小，但就很有得玩了!
-     就我來說，只拿來和BeautifulSoup搭配使用，將資料餵回DB，而他原始能產生的資料輸出類型就百百種!只能用二個字!貼心~
+  7. Pandas  
+     它的功能非常的強大，直接給官方小抄 → [官方](https://pandas.pydata.org/docs/user_guide/index.html#user-guide "游標顯示")  
+     我用到的部份非常的小，但就很有得玩了!  
+     就我來說，只拿來和BeautifulSoup搭配使用，將資料餵回DB，而他原始能產生的資料輸出類型就百百種!只能用二個字!貼心~  
      雖然用的不多，不過可以感受到，他在處理資料上就是無敵的，好Pandas不試試看嗎?  
      
      
