@@ -16,7 +16,6 @@
   我不知道現在的版本到那了!但我還是會到這個網頁來抄一抄!
 [BeautifulSoup小抄](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/ "游標顯示")
 
----
   Selenium  
   Pytesseract  
   Pyautogui  
