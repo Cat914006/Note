@@ -22,10 +22,11 @@
      他需要搭配使用的瀏覽器設定驅動，這只留我常用的Chrome → [Driver](https://chromedriver.chromium.org/downloads)  
      小抄嘛! 因為就我拿來用的這麼「膚淺」基本上就是記得一個語法就結束了!所以就是需要就GOOGLE一下，還真沒特別常用的網頁。    
      就隨意留個介紹網址吧。[Selenium介紹](https://www.selenium.dev/)  
-     `我的膚淺 driver.find_element(By.xx,'xx').todo() 回頭看來，真的對這個大寶貝太不敬了。`
+    
      ```Python
+        //我的膚淺  回頭看來，真的對這個大寶貝太不敬了。
         driver.find_element(By.ID, 'userId').send_keys(os.getenv('PXNAME'))
-    ```
+     ```
      
      
   4. Pytesseract
