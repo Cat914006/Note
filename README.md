@@ -61,10 +61,18 @@
      必竟讓reCAPTCHA進入二次驗證?~~那個我真人都按到抓狂~~ 基本上就是一盤死棋了!(鈔能力封印下的前提...)  
      PyAutoGUI卡拿出來扔前，先處理driver.set_window_size(XXX, XXX)，**這樣才能相對確保鍵盤和滑鼠在你想要的地方工作**。
   
-  7. pandas  
-   
+  7. Pandas
+     它的功能非常的強大，直接給官方小抄 → [官方](https://pandas.pydata.org/docs/user_guide/index.html#user-guide "游標顯示")
+     我用到的部份非常的小，但就很有得玩了!
+     就我來說，只拿來和BeautifulSoup搭配使用，將資料餵回DB，而他原始能產生的資料輸出類型就百百種!只能用二個字!貼心~
+     雖然用的不多，不過可以感受到，他在處理資料上就是無敵的，好Pandas不試試看嗎?  
+     
+     
+      
 
+   
+---
      
 
 * 流程
----
+
