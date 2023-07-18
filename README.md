@@ -9,8 +9,8 @@
 * 常用的工具  
 `不是很完整，必竟才摸了一下下，但因為大家都有防爬，主要的幾個工具該玩的該測的應該多多少少有碰碰!`   
   1. BeautifulSoup  
-  大名鼎鼎這碗湯就不多說了，應該是所有Python小萌新的第一堂課xD(稱號Get 大嬸級Python萌新)  
-  搭配一下requests，抓抓匯率搞搞股價，感覺學會了Python的全世界!!  
+  大名鼎鼎這碗湯就不多說了，應該是所有Python爬蟲班小萌新的第一堂課xD(稱號Get 大嬸級Python萌新)  
+  搭配一下requests，抓抓匯率搞搞股價，感覺學會了Python爬蟲界的全世界!!  
   但還要有一說一的要認真表態BeautifulSoup還是真的非常好用的，怎麼說!就是他很基礎卻也很萬能!  
   常常就是一個轉身又華麗出場。  
   遇到什作業，先抄為敬，來這個網頁來抄一抄就對了。[BeautifulSoup小抄](https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/ "游標顯示")
@@ -23,12 +23,17 @@
      小抄嘛! 因為就我拿來用的這麼「膚淺」基本上就是記得一個語法就結束了!所以就是需要就GOOGLE一下，還真沒特別常用的網頁。    
      就隨意留個介紹網址吧。[Selenium介紹](https://www.selenium.dev/)  
      `我的膚淺 driver.find_element(By.xx,'xx').todo() 回頭看來，真的對這個大寶貝太不敬了。`
-  3. Pytesseract
      
-  5. Pyautogui
+  4. Pytesseract
+     說到這個Pytesseract，先來談談OCR，光學文字辨識，聽起來好像很利害!嗯~他真的滿利害的!  
+     先感謝那些大神們(雙手合十)，基本上說到網頁，需要登入的網頁，現在除了少數非常率性的。  
+     大約都有做一些防爬(保護)的機制，較常見的就是會讓你看難看到暴的圖片、或叫你點一個我不是機器人的申明等...  
+     搞的很專業的名詞就是Normal Captcha、reCAPTCHA等等..  
+     
+  6. Pyautogui
      
      
-  6.  
+  7.  
    
   Pyautogui  
   pandas  
