@@ -7,6 +7,13 @@
 相較於4GL!真心不騙 ╮（╯＿╰）╭
 ---
 * 常用的工具
+  >不是很完整，必竟才模了一下下，但因為大家都有防爬，主要的幾個工具該玩的該測的應該多多少少有碰碰!
+  >>BeautifulSoup
+  >>Selenium
+  >>Pytesseract
+  >>Pyautogui
+  >>pandas
+  >>pandas
 
 * 流程
 ---
