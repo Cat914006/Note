@@ -245,6 +245,7 @@ while max_retry < 3:
 
                          if_exists='append', index=False)
             # 寫一下log
+            driver.close()
             path = 'example.txt'
             with open(path, 'a') as f:
                 f.write(f'銷退檔作業成功完成，版號：{dayversion}'+'\n')
@@ -264,3 +265,4 @@ while max_retry < 3:
             f.close()
     max_retry += 1
     print(f'試錯了{max_retry}次')
+    driver.close()
