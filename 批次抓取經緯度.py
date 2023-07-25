@@ -16,7 +16,6 @@ import pandas as pd
 import datetime
 
 
-
 # 爬爬的版號
 dayversion = datetime.datetime.now().strftime('%Y%m%d_%H')
 
@@ -29,9 +28,10 @@ driver.set_window_size(1280, 800)
 
 def get_coordinate(addr, id):
     try:
+        # 查詢
         search = driver.find_element(By.ID, "lat")
         search.clear()
-        search.send_keys(addr) 
+        search.send_keys(addr)  # 輸入地址
         button = driver.find_element(
             By.CSS_SELECTOR, '#geo > div.MuiBox-root.jss3 > button')
         button.click()
@@ -63,12 +63,14 @@ while max_retry < 1:
     try:
         # 主要程式啟動點：
         if __name__ == '__main__':
+            # 先讀地址檔的csv
             df = pd.read_csv('PX.csv',
                              encoding='utf-8', quoting=3)
             df = df.reset_index()
             driver.get(
                 'https://share-my-location.com/zh-TW/geocoding')
             sleep(5)
+            # 一個一個下去查
             for index, row in df.iterrows():
                 get_coordinate(row["地址"], row["代碼"],)
             sleep(10)
