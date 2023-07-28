@@ -1,4 +1,4 @@
-#追加用經緯度找"里"的工能
+#追加用經緯度找"里"的功能
 from geopy.geocoders import Nominatim
 
 
