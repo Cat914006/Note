@@ -17,8 +17,6 @@ dayversion = datetime.datetime.now().strftime('%Y%m%d_%H')
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(options=options)
-driver.set_window_size(1280, 800)
-
 
 def get_coordinate(addr, id):
     try:
