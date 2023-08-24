@@ -35,9 +35,10 @@ def gettxt(link):
     with open(path, 'a', encoding='UTF-8') as f:
         f.write(f'{H.get_text()}' + '\n')
     div = soup.find('div', {'id': 'booktxt'})
-    path = r'C:\python\Cat\BB.txt'
-    with open(path, 'a', encoding='UTF-8') as f:
-        f.write(f'{div.get_text()}' + '\n')
+    for p in div.find_all('p'):
+        path = r'C:\python\Cat\BB.txt'
+        with open(path, 'a', encoding='UTF-8') as f:
+            f.write(f'{p.get_text()}' + '\n')
 
 
 driver.get(
