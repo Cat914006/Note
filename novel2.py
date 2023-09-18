@@ -19,16 +19,18 @@ from time import sleep
 
 
 def gettxt(link):
-    driver.get(link)
+    # driver.get(link)
+    url = link
+    response = requests.get(url)
     sleep(1)
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    H = soup.find('h1', {'class': 'bookname'})
-    path = r'C:\python\Cat\BB.txt'
-    with open(path, 'a', encoding='UTF-8') as f:
-        f.write(f'{H.get_text()}' + '\n')
-    div = soup.find('div', {'id': 'booktxt'})
+    soup = BeautifulSoup(response.text, "html.parser")
+    # H = soup.find('h1', {'class': 'bookname'})
+    # path = r'C:\python\Cat\BB.txt'
+    # with open(path, 'a', encoding='UTF-8') as f:
+    #     f.write(f'{H.get_text()}' + '\n')
+    div = soup.find('div', {'id': 'content'})
     for p in div.find_all('p'):
-        path = r'C:\python\Cat\BB.txt'
+        path = r'D:\python\Cat\BB.txt'
         with open(path, 'a', encoding='UTF-8') as f:
             f.write(f'{p.get_text()}' + '\n')
 
@@ -41,9 +43,14 @@ sleep(3)
 soup = BeautifulSoup(response.text, "html.parser")
 lis = soup.find_all('li')
 for li in lis:
-    print(li.text)
-    # mylinkh = f'https://tw.avsohu.com/'
-    # mylinkb = li.get('href')
-    # mylink = mylinkh+mylinkb
-    # print(mylink)
-    # gettxt(mylink)
+    like=li.find('a')
+    mylikeb=like.get('href')
+    mylinkh = f'https://tw.avsohu.com'
+    mylike=mylinkh+mylikeb
+    path = r'D:\python\Cat\BB.txt'
+    with open(path, 'a', encoding='UTF-8') as f:
+        f.write(f'{li.text}' + '\n')
+    gettxt(mylike)
+    # print(li.text)
+    # print(mylike)
+  
